@@ -1,0 +1,24 @@
+@startuml
+title Sequence Diagram with the Components and Actors
+actor Alice as A
+participant ACU as "Alice's CryptoUtility"
+participant BCU as "Bob's CryptoUtility"
+actor Bob as B
+' Add the separators for the 4 stages in the process
+== Key Generation ==
+activate ACU
+activate BCU
+A -> ACU : Generate Keys
+ACU -> ACU : Public Key (PuK)\nPrivate Key (PrK)\ngenerated
+== Key Distribution ==
+A -> ACU : Distribute Public Key
+ACU -> BCU : PuK
+== Encryption ==
+B -> BCU : Send Encrypted\nMessage M\nto Alice
+BCU -> ACU : PuK[M]
+== Decryption ==
+ACU -> ACU : PrK(PuK(M)) = M
+ACU -> A : M
+deactivate ACU
+deactivate BCU
+@enduml
