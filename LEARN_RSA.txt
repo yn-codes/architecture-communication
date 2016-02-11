@@ -1,4 +1,28 @@
 @startuml
 title How IT's inseparable couple \n Alice & Bob \n communicate via the RSA Cryptosystem
 caption How IT's inseparable couple \n Alice & Bob \n communicate via the RSA Cryptosystem
+actor Alice as A
+actor Bob as B
+== Key Generation ==
+note over A, B
+	Key generation in RSA involves the creation of a 
+	public key (e) and a private key (d) for Alice and Bob
+end note
+hnote over A : Private key (d)\nis not shared
+== Key Distribution ==
+A -> B : Alice's Public Key e
+== Encryption ==
+note over of B
+	Bob wants to send Alice a secret message M 
+	that only Alice should be able to read
+	So M is encrypted with Alice's public key e
+end note
+B -> A : e(M)
+== Decryption ==
+note over of A
+	e(M) can only be decrypted by 
+	Alice's private key d
+	Hence, only Alice can read M
+end note
+A -> A : d(e(M)) = M
 @enduml
