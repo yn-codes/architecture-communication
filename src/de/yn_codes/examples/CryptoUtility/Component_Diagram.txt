@@ -1,0 +1,9 @@
+@startuml
+title Crypto Utility Component Diagram
+package "CyptoUtility" {
+	[Key Pair Generator] -up-> Generate
+	[Public Key Distributor] -up-> Distribute
+	[Encryptor] -up-> Encrypt
+	[Decryptor] -up-> Decrypt
+}
+@startuml
