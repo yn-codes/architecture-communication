@@ -7,9 +7,9 @@ Mode details in the blog article @ http://y-tech.blogspot.com/2016/02/software-a
 A simplified RSA cryptosystem is used as an example.
 
 # Conclusion
-In summary, an architecture needs to be descriptively documented, communicated and accessible in its most current form to all stakeholders as it evolves over time. As an architecture evolves, chances are that its most current form and the documentations are not in sync. Keeping them in sync is one part of the problem and the other part is to enable automatic accessibility to all stakeholders to the latest form of the architecture.
+In summary, an architecture needs to be descriptively documented, communicated and accessible in its current version to all stakeholders as it evolves over time. As an architecture evolves, chances are that its current version as implemented and the documentations are not in sync. Keeping them in sync and enabling easy access to the latest version of the architecture to all stakeholders are challenges.
 
-The methods described in this [blog article](http://y-tech.blogspot.com/2016/02/software-architecture-communication.html) is one way that a Software Architect can ensure that stakeholders with the responsibility to create and update architectural designs can do so easily and effectively and stakeholders who read the architecture are always provided with the latest version of the architecture. Thereby closing the gap between production and consumption of architectural designs and effectively enhancing architecture communication within the management and development organisation.
+The methods described in this [blog article](http://y-tech.blogspot.com/2016/02/software-architecture-communication.html) are ways that a Software Architect can ensure that stakeholders with the responsibility to create and update architectural designs can do so easily and effectively and stakeholders who read the architecture are always provided with the latest version of the architecture. Thereby closing the gap between production and consumption of architectural designs and effectively enhancing architecture communication within the development and management organisations.
 
 # Sample UML Diagrams
 ## Learn RSA
