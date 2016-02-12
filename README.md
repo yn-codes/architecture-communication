@@ -1,6 +1,6 @@
 # Software Architecture Communication Tweaks
 
-This repository contains code to support demonstrating PlantUML code embedded within code as an Architecture communication tweak within development teams.
+This repository contains code to support demonstrating PlantUML text embedded within code as an Architecture communication tweak within development teams.
 
 Mode details in the blog article @ http://y-tech.blogspot.com/2016/02/software-architecture-communication.html
 
